@@ -1,0 +1,63 @@
+/**
+ * LAC theme for reveal.js.
+ *
+ * Copyright (C) 2016 Yuta Taniguchi <yuta.taniguchi.y.t@gmail.com>
+ */
+
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+// Background of the presentation
+$backgroundColor: #fff;
+
+// Primary/body text
+$mainFont: 'Roboto', 'M+ 1c', sans-serif;
+$mainFontSize: 36px;
+$mainColor: #282828;
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'Roboto', 'M+ 1c', sans-serif;
+$headingColor: #282828;
+$headingLineHeight: 1.2;
+$headingLetterSpacing: -0.1em;
+$headingTextTransform: none;
+$headingTextShadow: none;
+$headingFontWeight: 600;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 2.66em;
+$heading2Size: 2.00em;
+$heading3Size: 1.44em;
+$heading4Size: 1.00em;
+
+// Links and actions
+$linkColor: #13DAEC;
+$linkColorHover: lighten( $linkColor, 20% );
+
+// Text selection
+$selectionBackgroundColor: #FF5E99;
+$selectionColor: #fff;
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+	background-image: $backgroundColor;
+}
+
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
