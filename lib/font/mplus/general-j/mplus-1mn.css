@@ -1,0 +1,71 @@
+/* M+ 1mn */
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1-black-sub.eot');
+  src: url('mplus-1-black-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1-black-sub.woff') format('woff'),
+       url('mplus-1-black-sub.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1-bold-sub.eot');
+  src: url('mplus-1-bold-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1-bold-sub.woff') format('woff'),
+       url('mplus-1-bold-sub.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1-heavy-sub.eot');
+  src: url('mplus-1-heavy-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1-heavy-sub.woff') format('woff'),
+       url('mplus-1-heavy-sub.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1-light-sub.eot');
+  src: url('mplus-1-light-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1-light-sub.woff') format('woff'),
+       url('mplus-1-light-sub.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1-medium-sub.eot');
+  src: url('mplus-1-medium-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1-medium-sub.woff') format('woff'),
+       url('mplus-1-medium-sub.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1-regular-sub.eot');
+  src: url('mplus-1-regular-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1-regular-sub.woff') format('woff'),
+       url('mplus-1-regular-sub.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1-thin-sub.eot');
+  src: url('mplus-1-thin-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1-thin-sub.woff') format('woff'),
+       url('mplus-1-thin-sub.ttf') format('truetype');
+  font-weight: 100;
+}

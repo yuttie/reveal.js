@@ -1,0 +1,71 @@
+/* M+ 1c */
+
+@font-face
+{
+  font-family: 'M+ 1c';
+  src: url('mplus-1c-black-sub.eot');
+  src: url('mplus-1c-black-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1c-black-sub.woff') format('woff'),
+       url('mplus-1c-black-sub.ttf') format('truetype');
+  font-weight: 900;
+}
+
+@font-face
+{
+  font-family: 'M+ 1c';
+  src: url('mplus-1c-bold-sub.eot');
+  src: url('mplus-1c-bold-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1c-bold-sub.woff') format('woff'),
+       url('mplus-1c-bold-sub.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face
+{
+  font-family: 'M+ 1c';
+  src: url('mplus-1c-heavy-sub.eot');
+  src: url('mplus-1c-heavy-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1c-heavy-sub.woff') format('woff'),
+       url('mplus-1c-heavy-sub.ttf') format('truetype');
+  font-weight: 800;
+}
+
+@font-face
+{
+  font-family: 'M+ 1c';
+  src: url('mplus-1c-light-sub.eot');
+  src: url('mplus-1c-light-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1c-light-sub.woff') format('woff'),
+       url('mplus-1c-light-sub.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face
+{
+  font-family: 'M+ 1c';
+  src: url('mplus-1c-medium-sub.eot');
+  src: url('mplus-1c-medium-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1c-medium-sub.woff') format('woff'),
+       url('mplus-1c-medium-sub.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face
+{
+  font-family: 'M+ 1c';
+  src: url('mplus-1c-regular-sub.eot');
+  src: url('mplus-1c-regular-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1c-regular-sub.woff') format('woff'),
+       url('mplus-1c-regular-sub.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face
+{
+  font-family: 'M+ 1c';
+  src: url('mplus-1c-thin-sub.eot');
+  src: url('mplus-1c-thin-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1c-thin-sub.woff') format('woff'),
+       url('mplus-1c-thin-sub.ttf') format('truetype');
+  font-weight: 100;
+}

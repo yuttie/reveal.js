@@ -1,0 +1,51 @@
+/* M+ 1mn */
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1mn-bold-sub.eot');
+  src: url('mplus-1mn-bold-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1mn-bold-sub.woff') format('woff'),
+       url('mplus-1mn-bold-sub.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1mn-light-sub.eot');
+  src: url('mplus-1mn-light-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1mn-light-sub.woff') format('woff'),
+       url('mplus-1mn-light-sub.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1mn-medium-sub.eot');
+  src: url('mplus-1mn-medium-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1mn-medium-sub.woff') format('woff'),
+       url('mplus-1mn-medium-sub.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1mn-regular-sub.eot');
+  src: url('mplus-1mn-regular-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1mn-regular-sub.woff') format('woff'),
+       url('mplus-1mn-regular-sub.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face
+{
+  font-family: 'M+ 1mn';
+  src: url('mplus-1mn-thin-sub.eot');
+  src: url('mplus-1mn-thin-sub.eot?#iefix') format('embedded-opentype'),
+       url('mplus-1mn-thin-sub.woff') format('woff'),
+       url('mplus-1mn-thin-sub.ttf') format('truetype');
+  font-weight: 100;
+}
