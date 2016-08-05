@@ -39,10 +39,10 @@ $headingTextShadow: none;
 $headingFontWeight: 600;
 $heading1TextShadow: $headingTextShadow;
 
-$heading1Size: 2.66em;
-$heading2Size: 2.00em;
-$heading3Size: 1.44em;
-$heading4Size: 1.00em;
+$heading1Size: 2.55em;    // 8^0.45
+$heading2Size: 1.87em;    // 8^0.30
+$heading3Size: 1.37em;    // 8^0.15
+$heading4Size: 1.00em;    // 8^0.00
 
 // Links and actions
 $linkColor: #13DAEC;
