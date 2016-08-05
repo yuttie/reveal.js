@@ -141,6 +141,32 @@ for f in *-regular-*.ttf; do
       g=${g#mplus-$type-}
       weight=${g%%-*}
 
+      case "$weight" in
+        thin)
+          nweight=100
+          ;;
+        light)
+          nweight=300
+          ;;
+        regular)
+          nweight=400
+          ;;
+        medium)
+          nweight=500
+          ;;
+        bold)
+          nweight=700
+          ;;
+        heavy)
+          nweight=800
+          ;;
+        black)
+          nweight=900
+          ;;
+        *)
+          echo "$weight Didn't match anything"
+      esac
+
       echo ""
       echo "@font-face"
       echo "{"
@@ -149,7 +175,7 @@ for f in *-regular-*.ttf; do
       echo "  src: url('mplus-$type-$weight-sub.eot?#iefix') format('embedded-opentype'),"
       echo "       url('mplus-$type-$weight-sub.woff') format('woff'),"
       echo "       url('mplus-$type-$weight-sub.ttf') format('truetype');"
-      echo "  font-weight: $weight;"
+      echo "  font-weight: $nweight;"
       echo "}"
   done >> $css
 done
