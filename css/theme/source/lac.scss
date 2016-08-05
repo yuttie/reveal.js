@@ -12,7 +12,8 @@
 
 
 // Include theme-specific fonts
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('../../lib/font/mplus/general-j/mplus-1c.css');
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -32,7 +33,7 @@ $headingMargin: 0 0 $blockMargin 0;
 $headingFont: 'Roboto', 'M+ 1c', sans-serif;
 $headingColor: #282828;
 $headingLineHeight: 1.2;
-$headingLetterSpacing: -0.1em;
+$headingLetterSpacing: 0;
 $headingTextTransform: none;
 $headingTextShadow: none;
 $headingFontWeight: 600;
