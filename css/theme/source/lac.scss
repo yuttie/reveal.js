@@ -59,6 +59,10 @@ $selectionColor: #fff;
 	@include radial-gradient(rgba(28,30,32,1), rgba(85,90,95,1));
 }
 
+.reveal .slides {
+	text-align: justify;
+}
+
 
 // Theme template ------------------------------
 @import "../template/theme";
