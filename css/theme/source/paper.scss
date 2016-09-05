@@ -78,3 +78,28 @@ $selectionColor: #fff;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+.reveal ul {
+	list-style-type: disc;
+}
+
+.reveal ul ul {
+	list-style-type: square;
+}
+
+.reveal ul ul ul {
+	list-style-type: circle;
+}
+
+.reveal ol {
+	list-style-type: decimal;
+}
+
+.reveal ol ol {
+	list-style-type: lower-alpha;
+}
+
+.reveal ol ol ol {
+	list-style-type: lower-greek;
+}
