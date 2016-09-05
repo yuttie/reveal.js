@@ -1,5 +1,5 @@
 /**
- * LAC theme for reveal.js.
+ * Paper theme for reveal.js.
  *
  * Copyright (C) 2016 Yuta Taniguchi <yuta.taniguchi.y.t@gmail.com>
  */
@@ -18,7 +18,7 @@
 
 // Override theme settings (see ../template/settings.scss)
 // Background of the presentation
-$backgroundColor: #fff;
+$backgroundColor: #fff4e1;
 
 // Primary/body text
 $mainFont: 'Roboto', 'M+ 1c', sans-serif;
@@ -37,11 +37,11 @@ $headingLetterSpacing: 0;
 $headingTextTransform: none;
 $headingTextShadow: none;
 $headingFontWeight: 600;
-$heading1TextShadow: $headingTextShadow;
+$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
 
-$heading1Size: 2.55em;    // 8^0.45
-$heading2Size: 1.87em;    // 8^0.30
-$heading3Size: 1.37em;    // 8^0.15
+$heading1Size: 1.87em;    // 8^0.30
+$heading2Size: 1.52em;    // 8^0.20
+$heading3Size: 1.23em;    // 8^0.10
 $heading4Size: 1.00em;    // 8^0.00
 
 // Links and actions
@@ -55,8 +55,7 @@ $selectionColor: #fff;
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {
-	background-image: $backgroundColor;
-	@include radial-gradient(rgba(28,30,32,1), rgba(85,90,95,1));
+	background-image: url('../../../image/textured-paper.png');
 }
 
 .reveal .slides {
