@@ -11,6 +11,10 @@
   background-image: url("../../../image/textured-paper.png");
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
 
+.reveal .slides section {
+  padding: 1em;
+  box-sizing: border-box; }
+
 strong {
   box-shadow: inset 0 -0.4em 0 rgba(255, 102, 179, 0.7); }
 
