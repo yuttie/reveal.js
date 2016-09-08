@@ -294,6 +294,9 @@ body {
   background-image: url("../../../image/textured-paper.png");
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
 
+.reveal .slides section section {
+  margin-left: -1em; }
+
 .reveal .slides section.center {
   display: flex !important;
   flex-direction: column; }

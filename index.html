@@ -86,6 +86,14 @@
 		<script src="js/reveal.js"></script>
 
 		<script>
+			var sections = document.querySelectorAll('.reveal .slides section');
+			for (var section of sections) {
+				var subsections = section.querySelectorAll('section');
+				if (subsections.length > 0) {
+					section.style.background = 'none';
+					section.style.boxShadow = 'none';
+				}
+			}
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				slideNumber: true,
