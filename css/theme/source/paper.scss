@@ -103,6 +103,23 @@ $selectionColor: #fff;
 	padding: 7px;
 }
 
+$arrowColor: hsl(222, 54%, 17%);
+.reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
+	border-right-color: $arrowColor;
+}
+
+.reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
+	border-left-color: $arrowColor;
+}
+
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+	border-bottom-color: $arrowColor;
+}
+
+.reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
+	border-top-color: $arrowColor;
+}
+
 .reveal strong {
 	box-shadow: inset 0 -0.4em 0 hsla(330,100%,70%,0.7);
 }

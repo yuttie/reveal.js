@@ -318,6 +318,18 @@ body {
   font-weight: 600;
   padding: 7px; }
 
+.reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled {
+  border-right-color: #142243; }
+
+.reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled {
+  border-left-color: #142243; }
+
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled {
+  border-bottom-color: #142243; }
+
+.reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled {
+  border-top-color: #142243; }
+
 .reveal strong {
   box-shadow: inset 0 -0.4em 0 rgba(255, 102, 179, 0.7); }
 
