@@ -20,11 +20,16 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
+		<style>
+			.reveal .slides section.title {
+				background-image: url('bg_title.svg');
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section class="center" style="text-align: center;">
+				<section class="title center" style="text-align: center;">
 					<h1>An Excellent Presentation</h1>
 					<h3>International Conference</h3>
 					<h4>John Doe</h4>
