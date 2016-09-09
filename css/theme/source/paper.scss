@@ -12,7 +12,8 @@
 
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
 @import url('../../lib/font/mplus/general-j/mplus-1c.css');
 
 
@@ -21,7 +22,7 @@
 $backgroundColor: #fff4e1;
 
 // Primary/body text
-$mainFont: 'Roboto', 'M+ 1c', sans-serif;
+$mainFont: 'Open Sans', 'M+ 1c', sans-serif;
 $mainFontSize: 36px;
 $mainColor: #282828;
 
@@ -30,13 +31,13 @@ $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'Roboto', 'M+ 1c', sans-serif;
+$headingFont: 'Open Sans Condensed', 'M+ 1c', sans-serif;
 $headingColor: #282828;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: 0;
 $headingTextTransform: none;
 $headingTextShadow: none;
-$headingFontWeight: 600;
+$headingFontWeight: 700;
 $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
 
 $heading1Size: 1.87em;    // 8^0.30

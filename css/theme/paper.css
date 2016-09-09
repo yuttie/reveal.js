@@ -3,7 +3,8 @@
  *
  * Copyright (C) 2016 Yuta Taniguchi <yuta.taniguchi.y.t@gmail.com>
  */
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700");
 @import url("../../lib/font/mplus/general-j/mplus-1c.css");
 /*********************************************
  * GLOBAL STYLES
@@ -13,7 +14,7 @@ body {
   background-color: #fff4e1; }
 
 .reveal {
-  font-family: "Roboto", "M+ 1c", sans-serif;
+  font-family: "Open Sans", "M+ 1c", sans-serif;
   font-size: 36px;
   font-weight: normal;
   color: #282828; }
@@ -39,8 +40,8 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #282828;
-  font-family: "Roboto", "M+ 1c", sans-serif;
-  font-weight: 600;
+  font-family: "Open Sans Condensed", "M+ 1c", sans-serif;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0;
   text-transform: none;
