@@ -15,6 +15,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i');
 @import url('../../lib/font/mplus/general-j/mplus-1c.css');
+@import url('../../lib/font/font-awesome/css/font-awesome.min.css');
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -122,6 +123,40 @@ $arrowColor: hsl(222, 54%, 17%);
 
 .reveal strong {
 	box-shadow: inset 0 -0.4em 0 hsla(330,100%,70%,0.7);
+}
+
+$ulMarginLeft: 1.5em;
+.reveal ul {
+	margin-left: $ulMarginLeft;
+}
+
+.reveal ul li {
+	list-style: none;
+}
+
+.reveal ul li::before {
+	// Common rules
+	font-family: 'FontAwesome';
+	display: inline-block;
+	width: $ulMarginLeft;
+	text-align: center;
+	// 1st level-specific ones
+	content: '\f0c8';
+	color: hsl(122, 31%, 51%);
+	margin-left: -$ulMarginLeft;
+	transform: rotate(45deg);
+	transform-origin: center;
+}
+
+.reveal ul ul li::before {
+	content: '\f138';
+	color: hsl(0, 53%, 54%);
+	transform: none;
+}
+
+.reveal ul ul ul li::before {
+	content: '\f1db';
+	color: hsl(224, 53%, 54%);
 }
 
 .reveal ul {

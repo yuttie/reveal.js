@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i");
 @import url("../../lib/font/mplus/general-j/mplus-1c.css");
+@import url("../../lib/font/font-awesome/css/font-awesome.min.css");
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -332,6 +333,32 @@ body {
 
 .reveal strong {
   box-shadow: inset 0 -0.4em 0 rgba(255, 102, 179, 0.7); }
+
+.reveal ul {
+  margin-left: 1.5em; }
+
+.reveal ul li {
+  list-style: none; }
+
+.reveal ul li::before {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  width: 1.5em;
+  text-align: center;
+  content: '\f0c8';
+  color: #5ba95e;
+  margin-left: -1.5em;
+  transform: rotate(45deg);
+  transform-origin: center; }
+
+.reveal ul ul li::before {
+  content: '\f138';
+  color: #c84c4c;
+  transform: none; }
+
+.reveal ul ul ul li::before {
+  content: '\f1db';
+  color: #4c6dc8; }
 
 .reveal ul {
   list-style-type: disc; }
