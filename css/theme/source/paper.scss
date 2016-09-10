@@ -12,8 +12,8 @@
 
 
 // Include theme-specific fonts
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,700,700i');
 @import url('../../lib/font/mplus/general-j/mplus-1c.css');
 
 
@@ -22,7 +22,7 @@
 $backgroundColor: #fff4e1;
 
 // Primary/body text
-$mainFont: 'Open Sans', 'M+ 1c', sans-serif;
+$mainFont: 'Roboto', 'M+ 1c', sans-serif;
 $mainFontSize: 36px;
 $mainColor: #282828;
 
@@ -31,13 +31,13 @@ $blockMargin: 20px;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'Open Sans Condensed', 'M+ 1c', sans-serif;
+$headingFont: 'Oswald', 'M+ 1c', sans-serif;
+$headingFontWeight: normal;
 $headingColor: #282828;
 $headingLineHeight: 1.2;
 $headingLetterSpacing: 0;
 $headingTextTransform: none;
 $headingTextShadow: none;
-$headingFontWeight: 700;
 $heading1TextShadow: none;
 
 $heading1Size: 1.87em;    // 8^0.30
